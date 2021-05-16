@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2D2D10322644EA3A00C53274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D10312644EA3A00C53274 /* AppDelegate.swift */; };
 		2D2D10342644EA3A00C53274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D10332644EA3A00C53274 /* SceneDelegate.swift */; };
-		2D2D10362644EA3A00C53274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D10352644EA3A00C53274 /* ViewController.swift */; };
+		2D2D10362644EA3A00C53274 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D10352644EA3A00C53274 /* RecordSoundsViewController.swift */; };
 		2D2D10392644EA3A00C53274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D10372644EA3A00C53274 /* Main.storyboard */; };
 		2D2D103B2644EA3D00C53274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D103A2644EA3D00C53274 /* Assets.xcassets */; };
 		2D2D103E2644EA3D00C53274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D103C2644EA3D00C53274 /* LaunchScreen.storyboard */; };
+		2D2D104626463A6C00C53274 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D104526463A6C00C53274 /* PlaySoundsViewController.swift */; };
+		2D2D104A2647858400C53274 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D10492647858400C53274 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D2D102E2644EA3A00C53274 /* pitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2D10312644EA3A00C53274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2D10332644EA3A00C53274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D2D10352644EA3A00C53274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2D10352644EA3A00C53274 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		2D2D10382644EA3A00C53274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D2D103A2644EA3D00C53274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2D103D2644EA3D00C53274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2D103F2644EA3D00C53274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2D104526463A6C00C53274 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		2D2D10492647858400C53274 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				2D2D10312644EA3A00C53274 /* AppDelegate.swift */,
 				2D2D10332644EA3A00C53274 /* SceneDelegate.swift */,
-				2D2D10352644EA3A00C53274 /* ViewController.swift */,
+				2D2D10352644EA3A00C53274 /* RecordSoundsViewController.swift */,
 				2D2D10372644EA3A00C53274 /* Main.storyboard */,
 				2D2D103A2644EA3D00C53274 /* Assets.xcassets */,
 				2D2D103C2644EA3D00C53274 /* LaunchScreen.storyboard */,
 				2D2D103F2644EA3D00C53274 /* Info.plist */,
+				2D2D104526463A6C00C53274 /* PlaySoundsViewController.swift */,
+				2D2D10492647858400C53274 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = pitchPerfect;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2D10362644EA3A00C53274 /* ViewController.swift in Sources */,
+				2D2D10362644EA3A00C53274 /* RecordSoundsViewController.swift in Sources */,
+				2D2D104A2647858400C53274 /* playsoundsviewcontroller-audio.swift in Sources */,
 				2D2D10322644EA3A00C53274 /* AppDelegate.swift in Sources */,
+				2D2D104626463A6C00C53274 /* PlaySoundsViewController.swift in Sources */,
 				2D2D10342644EA3A00C53274 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 964B2RLH67;
 				INFOPLIST_FILE = pitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.pitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.pitchPerfectAasthaShrestha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +314,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 964B2RLH67;
 				INFOPLIST_FILE = pitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.pitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.pitchPerfectAasthaShrestha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
